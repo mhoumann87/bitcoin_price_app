@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #454545;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+main {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h1,
+p,
+form,
+button {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+select {
+  margin-bottom: 1rem;
+}
+
+#btn {
+  cursor: pointer;
+  border: none;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #123D73;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 3px rgba(28, 28, 28, 0.2);
+  outline: none;
+}
+
+#message {
+  margin-bottom: 1rem;
+  color: #8A0502;
+}
+
+#price {
+  font-size: 1.6rem;
+}
